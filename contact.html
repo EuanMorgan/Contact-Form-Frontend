@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Contact us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./main.js"></script>
+  </head>
+  <body>
+    <div class="contact-section">
+      <h1>Contact Us</h1>
+      <div class="border"></div>
+      <form class="contact-form">
+        <input
+          type="text"
+          class="contact-form-text"
+          placeholder="Your Name:"
+          id="name"
+          autofocus
+          required
+          name="name"
+        />
+        <input
+          type="email"
+          class="contact-form-text"
+          placeholder="Your Email:"
+          required
+          id="email"
+          name="_replyto"
+        />
+        <input
+          type="text"
+          class="contact-form-text"
+          placeholder="Subject:"
+          required
+          id="subject"
+          name="subject"
+        />
+        <textarea
+          class="contact-form-text"
+          id="message"
+          placeholder="Message:"
+          required
+          name="comments"
+          type="text"
+        ></textarea>
+        <button type="button" class="contact-form-btn" id="btnSubmit">
+          Send
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
